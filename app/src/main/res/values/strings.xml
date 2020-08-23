@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ExampleForLiveChatZenDesk</string>
+    <string name="zen_desk_key"></string>
+    <string name="guest_info">User Info</string>
+    <string name="is_required">Required</string>
+    <string name="is_optional">Optional</string>
+    <string name="is_name_title">Name :</string>
+    <string name="guest_phone_number">"Phone No: "</string>
+    <string name="guest_email">Email:</string>
+    <string name="continues">Continues</string>
+    <string name="chat_head_message">End Session?</string>
+    <string name="chat_body_message">Are you sure you want to end the chat?</string>
+    <string name="chat_cancel_title">CANCEL</string>
+    <string name="chat_close_title">CLOSE</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="thank_you_for_recommeding_us">Thank You\n For Recommending Us</string>
+    <string name="your_comments">Your Comments</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="feedback_submitted_successfully">Thank You, Your feedback has been submitted successfully!</string>
+    <string name="done">Done</string>
+    <string name="input_field_hint" >Say Something… </string>
+    <string name="rate_this_chat_title" >To improve our service, please rate the agent based on your chat</string>
+    <string name="rate_this_chat_leave_a_comment_button" >Leave a comment…</string>
+    <string name="no_agent_available">No agent available</string>
+    <string name="sorry_no_agent">Sorry there are no agent available to chat \n Please try again later</string>
+</resources>

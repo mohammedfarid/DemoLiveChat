@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/_16dp"
+    android:layout_marginBottom="@dimen/_33dp">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_65dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:text="@string/rate_this_chat_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/llRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@id/tvRate"
+        app:layout_constraintTop_toBottomOf="@id/tvRate">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivGoodRate"
+            android:layout_width="@dimen/_36dp"
+            android:layout_height="@dimen/_36dp"
+            android:layout_marginEnd="@dimen/_13dp"
+            app:srcCompat="@drawable/selector_rate_like_bg" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBadRate"
+            android:layout_width="@dimen/_36dp"
+            android:layout_height="@dimen/_36dp"
+            app:srcCompat="@drawable/selector_rate_unlike_bg" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRateComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_65dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:text="@string/rate_this_chat_leave_a_comment_button"
+        android:enabled="false"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintTop_toBottomOf="@id/llRate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

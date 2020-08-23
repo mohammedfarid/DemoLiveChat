@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_16dp"
+    android:layout_marginEnd="@dimen/_16dp"
+    android:layout_marginBottom="@dimen/_33dp"
+    android:layoutDirection="ltr"
+    android:layout_marginTop="@dimen/_10dp"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivAgent"
+        android:layout_width="@dimen/_36dp"
+        android:layout_height="@dimen/_36dp"
+        app:srcCompat="@drawable/ic_profle_chat" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_7dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/tvAgentSH"
+                android:layout_width="@dimen/_15dp"
+                android:layout_height="@dimen/_15dp"
+                app:srcCompat="@drawable/bg_chat_agent_new_sharp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAgent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chat_agent_new"
+                android:paddingStart="@dimen/_15dp"
+                android:paddingTop="@dimen/_13dp"
+                android:paddingEnd="@dimen/_15dp"
+                android:paddingBottom="@dimen/_16dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sp"
+                android:layout_marginStart="@dimen/_7dp"
+                android:textAlignment="gravity"
+                tools:text="السلام عليكم السلام عليكم السلام عليكم السلام عليكم السلام عليكم السلام عليكم السلام عليكم " />
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAgentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_14dp"
+            android:layout_marginTop="@dimen/_3dp"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_11sp"
+            tools:text="glglglglg" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
